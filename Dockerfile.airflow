@@ -1,0 +1,3 @@
+FROM apache/airflow:2.9.0
+# Install dependencies for the financial data collector
+RUN pip install --no-cache-dir yfinance psycopg2-binary pandas
